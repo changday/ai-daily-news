@@ -43,6 +43,8 @@ export const blog = z.discriminatedUnion("external", [
     }),
     icon: z.optional(z.string()),
     source: z.optional(z.string()),
+    description: z.optional(z.string()),
+
   }),
 ]);
 

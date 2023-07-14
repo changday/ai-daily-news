@@ -4,12 +4,54 @@ import PageLayout from "../layouts/PageLayout.astro";
 import Intro from "../components/Intro.astro";
 import AboutTheTheme from "../components/AboutTheTheme.astro";
 import { SITE_TITLE } from "../config";
+import { readAll } from "../lib/markdoc/read";
+import { blog } from "../lib/markdoc/frontmatter.schema";
+
+const posts = await readAll({
+  directory: "blog",
+  frontmatterSchema: blog,
+});
+
+const sortedPosts = posts
+  .filter((p) => p.frontmatter.draft !== true)
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
+  );
 ---
 
 <PageLayout>
   <PageMeta title={`${SITE_TITLE} | Web Ninja`} slot="meta" />
   <Fragment slot="main">
     <Intro />
-    <AboutTheTheme />
+    <h2 class="font-bold text-xl">Latest News</h2>
+    <ol class="relative border-l border-gray-200 dark:border-gray-700">
+      {
+        sortedPosts.map((post) => {
+          const formattedDate = new Date(
+            post.frontmatter.date
+          ).toLocaleDateString("en-us", {
+            year: "numeric",
+            month: "short",
+            day: "numeric",
+          });
+          return (
+              <li class="mb-10 ml-4">
+                <a href={post.frontmatter.url}
+                    target="_blank nofollow"
+                    class="unset hover:text-text-link">   
+                  <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                  <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"><time datetime={post.frontmatter.date.toISOString()}>
+                  {formattedDate}
+                </time></time>
+                  <h3 class="title">{post.frontmatter.title}  - <img src={post.frontmatter.icon} style="display: inline; width: 16px; margin-right: 4px;">{post.frontmatter.source}</h3>
+                  <p class="mb-4 text-sm font-thin text-gray-500 dark:text-gray-400">{post.frontmatter.description}</p>
+                </a>
+                  </li>
+          );
+        })
+      }
+    </ol>
   </Fragment>
 </PageLayout>

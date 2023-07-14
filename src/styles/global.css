@@ -24,14 +24,14 @@
         /* Tailwind slate-900 #0f172a */
         --color-text-muted: 100 116 139;
         /* #339af0 */
-        --color-text-link: 51 154 240;
+        --color-text-link: 245 113 17;
         /* black */
         --color-text-code: 0 0 0;
         /* black */
         --color-text-selection: 0 0 0;
 
         /* white */
-        --color-bg-body: 255 255 255;
+        --color-bg-body: 251 254 251;
         /* Tailwind amber-100 #fef3c7 */
         --color-bg-code: 254 243 199;
         /* Tailwind primary-200 #e2e8f0 */
@@ -56,7 +56,7 @@
         /* Tailwind neutral-300 #d4d4d4 */
         --color-text-muted: 212 212 212;
         /* #339af0 */
-        --color-text-link: 51 154 240;
+        --color-text-link: 245 113 17;
         /* black */
         --color-text-code: 255 255 255;
         /* black */

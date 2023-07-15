@@ -92,6 +92,9 @@
     h6 {
         font-family: theme('fontFamily.heading');
     }
+    h3 {
+        font-size: 16px;
+    }
 }
 
 @layer components {

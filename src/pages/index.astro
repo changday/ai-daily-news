@@ -24,6 +24,7 @@ const dates = sortedPosts.map(a => a.frontmatter.date.toLocaleDateString("en-us"
             year: "numeric",
             month: "short",
             day: "numeric",
+            timeZone: "UTC",
           }));
 ---
 
@@ -41,17 +42,20 @@ const dates = sortedPosts.map(a => a.frontmatter.date.toLocaleDateString("en-us"
             year: "numeric",
             month: "short",
             day: "numeric",
+            timeZone: "UTC",
           });
           const uniqueDate = dates.indexOf(formattedDate);
           const month = new Date(
             post.frontmatter.date
           ).toLocaleDateString("en-us", {
             month: "short",
+            timeZone: "UTC",
           });
           const day = new Date(
             post.frontmatter.date
           ).toLocaleDateString("en-us", {
             day: "numeric",
+            timeZone: "UTC",
           });
           return (
               <li class="mb-10 ml-4">
@@ -59,13 +63,13 @@ const dates = sortedPosts.map(a => a.frontmatter.date.toLocaleDateString("en-us"
                     target="_blank nofollow"
                     class="unset hover:text-text-link">   
                   <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                  { uniqueDate==i && <div class="absolute -left-12 text-center bg-orange-500 text-sm text-white dark:text-gray-900 invisible md:visible"><div class="bg-white dark:bg-gray-900 text-orange-500 border border-orange-500 px-2">{day}</div><div class="">{month}</div></div> }
-                  {console.log(month,day)}
-                  <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"><time datetime={post.frontmatter.date.toISOString()}>{formattedDate}</time>
+                  { uniqueDate==i && <div class="absolute -left-12 text-center bg-orange-500 text-sm text-white dark:text-gray-900 hidden md:block"><div class="bg-white dark:bg-gray-900 text-orange-500 border border-orange-500 px-2">{day}</div><div class="">{month}</div></div> }
+                  <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"><span class="hidden md:inline-block"><img src={post.frontmatter.icon} style="display: inline; width: 16px; margin-right: 4px;">{post.frontmatter.source} - {post.frontmatter.date.toUTCString()}</span><time class="inline-block md:hidden" datetime={post.frontmatter.date.toISOString()}>{formattedDate}</time>
                 </time>
-                  <h3 class="title">{post.frontmatter.title}  - <img src={post.frontmatter.icon} style="display: inline; width: 16px; margin-right: 4px;">{post.frontmatter.source}</h3>
+                  <h3 class="title">{post.frontmatter.title}</h3>
                   <p class="mb-4 text-sm font-thin text-gray-500 dark:text-gray-400">{post.frontmatter.description}</p>
                 </a>
+                {console.log(post.frontmatter.date.toUTCString())}
                   </li>
           );
         })

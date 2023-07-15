@@ -208,5 +208,9 @@
     .animated-link.show:after {
         transform: translateZ(0) scale(1);
     }
+
+    div form {
+        margin: 0 auto;
+      }
     /* ------ REUSABLE UTILS - END ------ */
 }

@@ -19,7 +19,7 @@ If you are interested in submitting news, please check out the `content/blog` di
 
 ## Credit
 
-This website is customized on the Astro Blogster theme, if you are interested in making your own blog, check the theme below:
+This project is customized on the Astro Blogster theme, if you are interested in making your own blog, check the theme below:
 
 - [Astro Blogster theme](https://github.com/flexdinesh/blogster)
 

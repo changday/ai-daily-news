@@ -1,10 +1,17 @@
 # AI Daily News
 
-Welcome to AI Daily News, your source for the latest news and information about artificial intelligence. As A.I. technology continues to advance rapidly, it's impacting more aspects of our lives and jobs. That's why we created this site - to keep you informed about the key AI developments you need to know about.
+Welcome to AI Daily News, your source for the latest news and information about artificial intelligence. As A.I. technology continues to advance rapidly, it's impacting more aspects of our lives and jobs. That's why I created this project - to keep you informed about the key AI developments you need to know about.
 
 ## Contribution
 
-If you are interested in submitting news, please check out the `content/blog` directory and add `.md` markdown files.
+If you are interested in submitting news, please check out the `content/blog` directory and add `.md` markdown files. Examples properties as follows:
+* external:
+* url: 
+* title:
+* description:
+* date:
+* source:
+* icon:
 
 ## Deployment
 

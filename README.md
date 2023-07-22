@@ -1,24 +1,6 @@
-# Blogster
+# AI Daily News
 
-Theme: **newspaper**
-
-Blogster is a collection of beautiful, accessible and performant blog templates built with [Astro](https://astro.build) and [Markdoc](https://markdoc.dev).
-
-Check out the demo here - [Blogster newspaper template](https://blogster-newspaper.netlify.app).
-
-## Newspaper Template
-
-A beautiful, performant and accessible theme built with [Tailwind](https://tailwindcss.com).
-
-- **Fast**. Fast by default. Astro websites are engineered to be fast and load before you could blink, even when not cached.
-- **Dark mode**. All themes have light/dark mode built-in.
-- **Mobile first**. Responsive and loads fast in all devices.
-- **Accessible**. A well thought out semantic and accessible content.
-- **Perfect lighthouse score.** 100 across the board.
-- **Easy content authoring**. Author content using markdown (`.md`) from your code editor or directly in GitHub.
-- **Extended markdown with [Markdoc](https://markdoc.dev).** Type-safe custom components like YouTube embed, Twitter embed (or anything you want really) in your markdown (`.md`) files.
-- **RSS feed**. Your blog has an RSS feed setup that can be accessed at `/rss.xml`.
-- **SEO**. All pages are setup with all the SEO you might need.
+Welcome to AI Daily News, your source for the latest news and information about artificial intelligence. As AI technology continues to advance rapidly, it's impacting more aspects of our lives and jobs. That's why we created this site - to keep you informed about the key AI developments you need to know about.
 
 ## How do I add content?
 
@@ -37,14 +19,14 @@ Easy.
 
 ## How do I deploy?
 
-`yarn build` will generate a static website in `dist` dir. You can host it with any static hosting. If you need a recommendation, check out [Netlify](netlify.com).
+`yarn build` will generate a static website in `dist` dir. You can host it with any static hosting. If you need a recommendation, check out [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
 
 ## Credit
 
-Thanks to other templates that inspired this theme.
+This website is customized on the Astro Blogster Theme.
 
-- [Official Astro Blog template](https://github.com/withastro/astro/tree/main/examples/blog)
+- [Astro Blogster theme](https://github.com/flexdinesh/blogster)
 
 ## License
 
-MIT © [Dinesh Pandiyan](https://github.com/flexdinesh)
+MIT © [Chang Day](https://github.com/changday)

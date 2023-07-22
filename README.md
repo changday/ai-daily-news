@@ -15,7 +15,7 @@ If you are interested in submitting news, please check out the `content/blog` di
 
 ## Deployment
 
-`yarn build` will generate a static website in `dist` dir. You can host it with any static hosting. If you need a recommendation, check out [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
+`yarn build`, `npm run build`, or `astro build` will generate a static website in `dist` dir. You can host it with any static hosting. If you need a recommendation, check out [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
 
 ## Credit
 

@@ -5,13 +5,13 @@ Welcome to AI Daily News, your source for the latest news and information about 
 ## Contribution
 
 If you are interested in submitting news, please check out the `content/blog` directory and add `.md` markdown files. Examples properties as follows:
-* external:
-* url: 
-* title:
-* description:
-* date:
-* source:
-* icon:
+* external: true (true or false, as we only collect external news, so please make sure it keeps true value)
+* url: https://www.theverge.com/2023/7/20/23801498/github-copilot-x-chat-code-chatbot-public-beta (news source url)
+* title: GitHub’s Copilot Chat AI feature is now available in public beta (news title)
+* description: GitHub’s AI-powered coding chatbot is available to Copilot for Business users starting today. (news brief intro)
+* date: 2023-07-20T16:00:00.000Z (please add UTC published date)
+* source: The Verge (name of the news website)
+* icon: https://superb-rose-sheep.faviconkit.com/theverge.com/32 (we use faviconkit.com to show the news site favicon)
 
 ## Deployment
 

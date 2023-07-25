@@ -27,9 +27,6 @@ const dates = sortedPosts.map(a => a.frontmatter.date.toLocaleDateString("en-us"
             timeZone: "UTC",
           }));
 
-const filterDates = sortedPosts.map(a => a.frontmatter.date)
-
-const filteredPosts = sortedPosts.filter((p,i) => filterDates.indexOf(p.frontmatter.date) < 10);
 ---
 
 <PageLayout>

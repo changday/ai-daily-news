@@ -3,7 +3,7 @@
 
 export const SITE_TITLE = "AI Daily News";
 export const SITE_DESCRIPTION =
-  "Welcome to Daily AI News, your source for the latest news and information about artificial intelligence.";
+  "Welcome to AI Daily News, your source for the latest news and information about artificial intelligence. Subscribe our newsletter to keep informed about the key AI launches, developments, trends, researches, regulations, and investments.";
 export const TWITTER_HANDLE = "@yourtwitterhandle";
 export const MY_NAME = "AI Daily News";
 

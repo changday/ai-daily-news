@@ -30,7 +30,7 @@ const dates = sortedPosts.map(a => a.frontmatter.date.toLocaleDateString("en-us"
 ---
 
 <PageLayout>
-  <PageMeta title={`News Archive | ${SITE_TITLE}`} slot="meta" />
+  <PageMeta title={`News Archive | ${SITE_TITLE}`} slot="meta" description="Daily AI news archive page. All hot news displayed in a timeline layout." />
   <Fragment slot="main">
     <h2 class="inline-block font-bold text-xl mt-2">News Archive</h2>
     <ol class="relative border-l border-gray-200 dark:border-gray-700">

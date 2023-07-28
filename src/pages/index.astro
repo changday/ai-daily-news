@@ -29,7 +29,7 @@ const dates = sortedPosts.map(a => a.frontmatter.date.toLocaleDateString("en-us"
 
 const filterDates = sortedPosts.map(a => a.frontmatter.date)
 
-const filteredPosts = sortedPosts.filter((p,i) => filterDates.indexOf(p.frontmatter.date) < 10);
+const filteredPosts = sortedPosts.filter((p,i) => filterDates.indexOf(p.frontmatter.date) < 15);
 ---
 
 <PageLayout>

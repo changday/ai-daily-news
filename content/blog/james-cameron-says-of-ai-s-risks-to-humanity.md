@@ -4,5 +4,5 @@ url: https://www.ctvnews.ca/sci-tech/i-warned-you-guys-in-1984-terminator-filmma
 title: "'I warned you guys in 1984,' 'Terminator' filmmaker James Cameron says of AI's risks to humanity"
 description: Oscar-winning Canadian filmmaker James Cameron says he agrees with experts in the artificial intelligence field that advancements in the technology pose a serious risk to humanity.
 date: 2023-07-18T19:35:00Z
-icon: https://superb-rose-sheep.faviconkit.com/ctvnews.ca/32
+icon: https://www.google.com/s2/favicons?domain=ctvnews.ca&sz=32
 source: CTV News

@@ -4,5 +4,5 @@ url: https://www.reuters.com/technology/indias-infosys-signs-five-year-ai-deal-w
 title: India's Infosys signs five-year AI deal with $2 bln target spend
 description: India's second-largest software services exporter Infosys said on Monday it has signed a deal with an existing client to provide artificial intelligence (AI) and automation services that will span over five years, with a target spend estimated at $2 billion.
 date: 2023-07-18T03:43:56Z
-icon: https://superb-rose-sheep.faviconkit.com/reuters.com/32
+icon: https://www.google.com/s2/favicons?domain=reuters.com&sz=32
 source: Reuters

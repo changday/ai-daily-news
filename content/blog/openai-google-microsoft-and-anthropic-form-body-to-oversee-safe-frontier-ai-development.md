@@ -4,6 +4,6 @@ url: https://techcrunch.com/2023/07/26/openai-google-microsoft-and-anthropic-for
 title: OpenAI, Google, Microsoft and Anthropic form body to oversee safe ‘frontier AI’ development
 description: 'OpenAI, Microsoft, Google, and Anthropic are forming a new body designed to ensure "safe and responsible" AI development.'
 date: 2023-07-26T11:37:13Z
-icon: https://superb-rose-sheep.faviconkit.com/techcrunch.com/32
+icon: https://www.google.com/s2/favicons?domain=techcrunch.com&sz=32
 source: TechCrunch
 ---

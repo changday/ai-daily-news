@@ -11,7 +11,7 @@ If you are interested in submitting news, please check out the `content/blog` di
 * description: GitHub’s AI-powered coding chatbot is available to Copilot for Business users starting today. (news brief intro)
 * date: 2023-07-20T16:00:00.000Z (please add UTC published date)
 * source: The Verge (name of the news website)
-* icon: https://superb-rose-sheep.faviconkit.com/theverge.com/32 (we use faviconkit.com to show the news site favicon)
+* icon: https://www.google.com/s2/favicons?domain=theverge.com&sz=32 (we use faviconkit.com to show the news site favicon)
 
 ## Deployment
 

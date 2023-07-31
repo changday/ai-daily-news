@@ -4,6 +4,6 @@ url: https://www.nbcnews.com/tech/tech-news/nyc-subway-using-ai-track-fare-evasi
 title: NYC subway using AI to track fare evasion
 description: An MTA spokesperson said the software doesn’t flag fare evaders to New York police but declined to comment on whether that policy could change.
 date: 2023-07-20T12:44:19Z
-icon: https://superb-rose-sheep.faviconkit.com/nbcnews.com/32
+icon: https://www.google.com/s2/favicons?domain=nbcnews.com&sz=32
 source: NBC News
 ---

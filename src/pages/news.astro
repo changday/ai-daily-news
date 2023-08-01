@@ -54,7 +54,7 @@ const dates = sortedPosts.map(a => a.frontmatter.date.toLocaleDateString("en-us"
           const day = new Date(
             post.frontmatter.date
           ).toLocaleDateString("en-us", {
-            day: "numeric",
+            day: "2-digit",
             timeZone: "UTC",
           });
           return (
@@ -63,7 +63,7 @@ const dates = sortedPosts.map(a => a.frontmatter.date.toLocaleDateString("en-us"
                     target="_blank nofollow"
                     class="unset hover:text-text-link">   
                   <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                  { uniqueDate==i && <div class="absolute -left-12 text-center bg-orange-500 text-sm text-white dark:text-gray-900 hidden md:block"><div class="bg-white dark:bg-gray-900 text-orange-500 border border-orange-500 px-2">{day}</div><div class="">{month}</div></div> }
+                  { uniqueDate==i && <div class="absolute -left-12 w-9 text-center bg-orange-500 text-sm text-white dark:text-gray-900 hidden md:block"><div class="bg-white dark:bg-gray-900 text-orange-500 border border-orange-500 px-2">{day}</div><div class="">{month}</div></div> }
                   <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"><span class="md:hidden">{month} {day} - </span><img src={post.frontmatter.icon} style="display: inline; width: 16px; margin-right: 4px;">{post.frontmatter.source}</time>
                   <h3 class="title">{post.frontmatter.title}</h3>
                   <p class="mb-4 text-sm font-thin text-gray-500 dark:text-gray-400">{post.frontmatter.description}</p>

@@ -72,7 +72,7 @@ const filteredPosts = sortedPosts.filter((p,i) => filterDates.indexOf(p.frontmat
           const day = new Date(
             post.frontmatter.date
           ).toLocaleDateString("en-us", {
-            day: "numeric",
+            day: "2-digit",
             timeZone: "UTC",
           });
           return (
